@@ -1,6 +1,5 @@
 package com.example.androidapp;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -8,23 +7,21 @@ import android.widget.Button;
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class OnboardingActivity_2 extends AppCompatActivity {
-
-    Button btnnext;
+public class OnboardingActivity_3 extends AppCompatActivity {
+    Button btnfinish;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_onboarding_2);
+        setContentView(R.layout.activity_onboarding_3);
 
-        btnnext = findViewById(R.id.btnnext);
+        btnfinish = findViewById(R.id.btnfinish);
 
-        btnnext.setOnClickListener(new View.OnClickListener() {
+        btnfinish.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(OnboardingActivity_2.this, OnboardingActivity_3.class);
-                startActivity(intent);
+
             }
         });
     }
