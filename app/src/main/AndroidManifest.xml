@@ -29,7 +29,7 @@
 <!--            </intent-filter>-->
         </activity>
 
-        <activity android:name=".OnboardingActivity"/>
+        <activity android:name=".OnboardingActivity_1"/>
     </application>
 
 </manifest>
