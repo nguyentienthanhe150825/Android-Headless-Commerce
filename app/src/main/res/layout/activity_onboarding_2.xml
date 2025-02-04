@@ -34,26 +34,26 @@
 
     <!-- Ảnh bên trong vùng trắng -->
 
+    <!-- Text -->
+
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="282dp"
+        android:layout_width="250dp"
         android:layout_height="282dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="33dp"
         android:scaleType="centerInside"
         app:layout_constraintEnd_toEndOf="@+id/view_image"
-        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="@+id/view_image"
         app:layout_constraintTop_toTopOf="@+id/view_image"
-        app:srcCompat="@drawable/onboarding_1" />
-
-    <!-- Text -->
+        app:srcCompat="@drawable/onboarding_2" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="258dp"
         android:layout_height="50dp"
         android:layout_marginTop="8dp"
-        android:text="Empowering Artisans, \nFarmers &amp; Micro Business"
+        android:text="Connecting NGOs, Social \nEnterprises with Communities"
         android:textAlignment="center"
         android:textColor="#33907C"
         android:textSize="18sp"
@@ -75,19 +75,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView">
 
-        <!-- Dot Active -->
-        <View
-            android:layout_width="12dp"
-            android:layout_height="12dp"
-            android:layout_marginEnd="8dp"
-            android:background="@drawable/dot_active" />
-
         <!-- Dot Inactive -->
         <View
             android:layout_width="12dp"
             android:layout_height="12dp"
             android:layout_marginEnd="8dp"
             android:background="@drawable/dot_inactive" />
+
+        <!-- Dot Active -->
+        <View
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/dot_active" />
 
         <!-- Dot Inactive -->
         <View
