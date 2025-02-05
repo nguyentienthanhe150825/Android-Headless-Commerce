@@ -58,7 +58,7 @@ public class OnboardingActivity extends AppCompatActivity {
             case 2:
                 imageView.setImageResource(R.drawable.onboarding_finish);
                 description.setText("Donate, Invest & Support \ninfrastructure projects");
-                
+
                 // swap dot_active_1 và dot_active_2
                 dot_inactive_1.setBackgroundResource(R.drawable.dot_inactive);
                 dot_inactive_2.setBackgroundResource(R.drawable.dot_active);
