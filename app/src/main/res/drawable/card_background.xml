@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Màu nền -->
+    <solid android:color="#33907C" />
+
+    <!-- Bo góc -->
+    <corners android:radius="10dp" />
+
+    <!-- Bóng nhẹ -->
+    <shadow
+        android:shadowColor="#66000000"
+        android:shadowDx="2.0"
+        android:shadowDy="2.0"
+        />
+</shape>
